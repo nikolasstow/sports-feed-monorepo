@@ -17,10 +17,9 @@ export const getBaseUrl = () => {
   const localhost = debuggerHost?.split(":")[0];
 
   if (!localhost) {
-    // return "https://turbo.t3.gg";
-    throw new Error(
-      "Failed to get localhost. Please point to your production server.",
-    );
+    // Fallback to localhost for development
+    console.warn("Failed to get hostUri from Expo config, falling back to localhost");
+    return "http://localhost:3000";
   }
   return `http://${localhost}:3000`;
 };
