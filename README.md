@@ -1,5 +1,12 @@
 # create-t3-turbo
 
+> [!IMPORTANT]
+>
+> **🎯 CODING CHALLENGE AVAILABLE**
+>
+> This repository contains a coding challenge for a sports feed app. 
+> Please see [`CHALLENGE.md`](./CHALLENGE.md) for the project details and requirements.
+
 > [!NOTE]
 >
 > create-t3-turbo now uses better-auth for authentication!
