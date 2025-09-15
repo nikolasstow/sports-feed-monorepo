@@ -39,6 +39,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     tsconfigPaths: true,
     typedRoutes: true,
   },
+  developmentClient: {
+    silentLaunch: true,
+  },
   plugins: [
     "expo-router",
     "expo-secure-store",

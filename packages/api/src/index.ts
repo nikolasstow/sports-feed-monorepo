@@ -22,3 +22,20 @@ type RouterOutputs = inferRouterOutputs<AppRouter>;
 
 export { createTRPCContext, appRouter };
 export type { AppRouter, RouterInputs, RouterOutputs };
+
+// Export feed types for external use
+export type {
+  AuthorType,
+  Author,
+  Source,
+  PostType,
+  ReactionType,
+  Reaction,
+  Reactions,
+  FeedPost,
+  GetFeedInput,
+  ReactToPostInput,
+  ClearReactionsInput,
+  GetFeedResponse,
+  ReactToPostResponse,
+} from "./router/feed/types";
